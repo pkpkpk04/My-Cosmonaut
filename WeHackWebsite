@@ -57,14 +57,16 @@
     <h1 id="green-title"><center>My Cosmonaut Dashboard</center></h1>
     <center>
       <nav>
-      <a href="/" aria-current="page" style = "color: white">Home</a>
       <a href="/Lessons.html"style = "color: white">Lessons</a>
       <a href="/Badges.html"style = "color: white">Badges</a>
       <a href="/Map.html"style = "color: white">Map</a>
       <a href="/Profile.html"style = "color: white">Profile</a>
       <a href="/Spaceship.html"style = "color: white">Spaceship</a>
-
       </nav>
+    </br>
+  </br>
+</br>
+</br>
      <a href="https://imgur.com/3bDPLjZ">
     <img src="https://i.imgur.com/3bDPLjZ.png" title="source: imgur.com" width = 200 height = 300/></a>
     <center>
@@ -77,4 +79,3 @@
     </script>
   </body>
 </html>
-
