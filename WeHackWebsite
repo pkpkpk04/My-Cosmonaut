@@ -1,81 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-
-    <title>My Cosmonaut</title>
+    <title>Badges</title>
+  </head>
     <style>
       #green-title {
         color: #321893;
         font-family: 'Tahoma', monospace;
-        font-size: 40px;
       }
-
-      .button {
-        border: none;
-       background-color: #321798;
-        color: white;
-        font: 'Tahoma';
-        padding: 25px 70px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 6px 2px;
-        cursor: pointer;
-      }
-      .button2 {
-        padding: 10px 40px;
-        background-color: #b6e6ff;
-      }
-      .white {
-        color: white;
-        font-size: 25pt;
-      }
-
-      html {
-        background-color: #E3D4E3;
-      }
-
-      p {
-        font-weight: bold;
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .item {
-        background-color: green;
-      }
-
     </style>
-  </head>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
   <body>
-  <body background = https://wallup.net/wp-content/uploads/2014/11/abstract-galaxy-artwork.jpg>
-    <h1 id="green-title"><center>My Cosmonaut Dashboard</center></h1>
-    <center>
-      <nav>
-      <a href="/Lessons.html"style = "color: white">Lessons</a>
-      <a href="/Badges.html"style = "color: white">Badges</a>
-      <a href="/Map.html"style = "color: white">Map</a>
-      <a href="/Profile.html"style = "color: white">Profile</a>
-      <a href="/Spaceship.html"style = "color: white">Spaceship</a>
-      </nav>
-    </br>
-  </br>
-</br>
-</br>
-     <a href="https://imgur.com/3bDPLjZ">
-    <img src="https://i.imgur.com/3bDPLjZ.png" title="source: imgur.com" width = 200 height = 300/></a>
-    <center>
-    <main>
-    <h2 class="white">Welcome back, FlowerFairy120!</h2>
-    <button class="button button2">Continue Game</button>
-    <button class="button button2">Customize Avatar</button>
-    <button class = "button button2">Game Settings</button>
-    </main>
-    </script>
+  <h1 id="green-title"><center>Profile</center></h1>
+      <a href="index.html">Badges</a>
+      <blockquote class="imgur-embed-pub" lang="en" data-id="1UHQ8cp"><a href="https://imgur.com/1UHQ8cp">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
   </body>
 </html>
