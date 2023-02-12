@@ -1,79 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-
-    <title>My Cosmonaut</title>
+    <title>Lessons</title>
     <style>
       #green-title {
         color: #321893;
-        font-family: 'Tahoma', monospace;
-        font-size: 40px;
+        font-family: 'Lucida Grande', monospace;
       }
 
       .button {
         border: none;
         color: white;
-        font: 'Tahoma';
-        padding: 25px 70px;
+        font: 'Lucida Grande';
+        padding: 15px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 20px;
+        font-size: 16px;
         margin: 6px 2px;
         cursor: pointer;
       }
 
-      .button1 {
-        background-color: #321798;
-      } /* Green */
-
-      .button2 {
-        padding: 10px 40px;
-        background-color: #b6e6ff;
-      }
-      .white {
-        color: white;
-        font-size: 25pt;
-      }
-
-      html {
-        background-color: #E3D4E3;
-      }
-
-      p {
-        font-weight: bold;
-      }
-
-      .container {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .item {
-        background-color: green;
-      }
-
     </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
   </head>
-
-  <body background = https://wallup.net/wp-content/uploads/2014/11/abstract-galaxy-artwork.jpg>
-    <h1 id="green-title"><center>My Cosmonaut Dashboard</center></h1>
-    <center>
-      <button class="button button1">Badges</button>
-    <button class="button button1">Lessons</button>
-    <button class="button button1">Spaceship</button>
-    <button class="button button1">Map</button>
-    <button class="button button1">Profile</button>
-     <a href="https://imgur.com/3bDPLjZ">
-    <img src="https://i.imgur.com/3bDPLjZ.png" title="source: imgur.com" width = 200 height = 300/></a>
-    <center>
-
-
-    <h2 class="white">Welcome back, FlowerFairy120!</h2>
-    <button class="button button2">Continue Game</button>
-    <button class="button button2">Customize Avatar</button>
-    <button class = "button button2">Game Settings</button>
-    
-    </script>
+  <body>
+    <nav>
+      <a href = "/">Badges</a>
+      <a href = "/">Spaceship</a>
+      <a href = "/">Map</a>
+      <a href = "/">Profile</a>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Lessons</a>
+    </nav>
+    <h1 id="green-title"><center>Lessons</center></h1>
+    <main>
+      <h1>My other page</h1>
+    </main>
   </body>
 </html>
