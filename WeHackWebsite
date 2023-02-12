@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   <body>
-  <h1 id="green-title"><center>My Badges</center></h1>
+  <h1 id="green-title"><center>Map</center></h1>
       <a href="index.html">Home</a>
-      <blockquote class="imgur-embed-pub" lang="en" data-id="aqPYbCU"><a href="https://imgur.com/aqPYbCU">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+      
   </body>
 </html>
+
 
