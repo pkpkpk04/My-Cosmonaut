@@ -36,7 +36,7 @@
       <a href="/">Home</a>
       <a href="/page2.html" aria-current="page">Lessons</a>
     </nav>
-    <h1 id="green-title"><center>Lessons</center></h1>
+    <h1 id="green-title"><center>Lesson</center></h1>
     <main>
       <h1>My other page</h1>
     </main>
