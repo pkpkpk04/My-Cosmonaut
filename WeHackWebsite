@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tab Title</title>
+    <style>
+      #green-title {
+        color: #321893;
+        font-family: 'Lucida Grande', monospace;
+      }
+      .button {
+        border: none;
+        color: white;
+        font: 'Lucida Grande';
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 6px 2px;
+        cursor: pointer;
+      }
+      .button1 {
+        background-color: #321798;
+      } /* Green */
+      .purple {
+        color: purple;
+        font-size: 12pt;
+      }
+      #pink-background {
+        background-color: pink;
+        padding: 10px;
+        border: 2px solid blue;
+        margin: 20px;
+      }
+      html {
+        background-color: #E3D4E3;
+      }
+      p {
+        font-weight: bold;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+      .item {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="green-title"><center>My Cosmonaut!</center></h1>
+    <button class="button button1">Badges</button>
+    <button class="button button1">Lessons</button>
+    <button class="button button1">Spaceship</button>
+    <button class="button button1">Map</button>
+    <button class="button button1">Profile</button>
+    <h2 class="purple">Subheading</h2>
+    <h6 class="purple">Another Subheading</h6>
+    <h1 id="pink-background" onclick="changeTitlesToDuck()">Title 2</h1>
+    <p>This is a paragraph. Hi!</p>
+    <ol>
+      <li>an item in the list</li>
+      <li>another item</li>
+    </ol>
+
+    <a href="http://ix.hackutd.co">sign up for hackUTD!</a>
+
+    <div class="container">
+      <p class="item">Mercury</p>
+      <p class="item">Venus</p>
+      <p class="item">Mars</p>
+    </div>
+
+    <script>
+      function changeTitlesToDuck() {
+        document.querySelector("h1").innerHTML = "duck";
+      }
+    </script>
+  </body>
+</html>
